@@ -115,3 +115,54 @@ section{
   max-width: 100%;
   margin: 20px auto;
 }
+
+.image_socials {
+  width: auto;
+  max-width: 100px;
+}
+
+.image_project1 {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.imageme {
+  width: 100px;
+}
+
+@media only screen and (max-width: 768px){
+
+
+  .box {
+    background: #98878F;
+    min-height: 600px;
+    padding: 30vh 20vw;
+    margin: 10vh 10vw;
+  }
+
+  .social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    align-items: center;
+  }
+
+
+  .imageme {
+    max-width: 60px;
+    width: auto;
+    min-width: 30px;
+    padding-bottom: 20px auto;
+  }
+
+  .image_project {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin: 10px auto;
+  }
+}
